@@ -15,6 +15,9 @@
 - && - run two commands; the second command will only run if the first command succeeds
 - man - show the manual page of a command
   - man ls
+- cp - copy file/directory
+- mv - move file/directory
+- rm - remove file/directory permanently; always use -i for safety
 
 ## Flags - modify commands
 - ls -l - show files in a long list format
@@ -22,6 +25,9 @@
 - `-r` - operate on a directory and its contents
   - rm -r example_directory
 - `--help` - show everything about the command
+- `-i` - permissiion; y + enter for yes and n + enter for no
+  - rm -ir directory - will ask first before deletion 
+- `-v` - show what happened
 
 ## Arguments - destination
 - `..` - parent directory

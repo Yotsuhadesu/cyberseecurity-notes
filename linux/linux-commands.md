@@ -41,3 +41,9 @@
 - `.` - referes to current directory
   - cd . will do nothing
 
+ ## Wildcards - shortcut for grouping (finding, moving, et.) files using a pattern
+ - *
+   - rm *.log will remove files that ends with .log
+ - ?
+   - rm file?.txt literally means remove file[any single character].txt
+

@@ -28,6 +28,7 @@
 - `-i` - permissiion; y + enter for yes and n + enter for no
   - rm -ir directory - will ask first before deletion 
 - `-v` - show what happened
+- `-n` - avoid overwriting when copying
 
 ## Arguments - destination
 - `..` - parent directory

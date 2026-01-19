@@ -12,4 +12,5 @@
         - Very huge address space
         - uses 128-bit addresses
 ## Ports
-- doors where data go in and out 
+   - doors where data go in and out in the IP address (device)
+   - ports disappear when the service stops

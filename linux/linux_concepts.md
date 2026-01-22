@@ -12,3 +12,13 @@
   - pwd
 - Physical pwd - show you current location on the disk
   - pwd -P
+
+ ## chmod
+ ### Permissions:
+ 1. r (4) - read (list files)
+ 2. w (2) - write (modify files)
+ 3. x (1) - execute (enter directory)
+### Users:
+1. u - owner
+2. g - groups
+3. o - others

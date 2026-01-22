@@ -18,6 +18,8 @@
 - cp - copy file/directory
 - mv - move file/directory
 - rm - remove file/directory permanently; always use -i for safety
+- chmod - modify file permissions
+- sudo - gain root access to a specific command, temporarily 
 
 ## Flags - modify commands
 - ls -l - show files in a long list format

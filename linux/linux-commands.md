@@ -4,6 +4,8 @@
 - Structure: command [flags] file [arguments]
 - pwd - show current working location
 - ls - show files/folders in the current working directory
+  - ls -ld - show directory detailed information
+  - ls -lR - show the metadata of a directory's contents and subdirectories
 - echo - print what you type
 - whoami - show the current user's account
 - cd - move across directories/folders
@@ -31,7 +33,7 @@
   - rm -ir directory - will ask first before deletion 
 - `-v` - show what happened
 - `-n` - avoid overwriting when copying
-
+  
 ## Arguments - destination
 - `..` - parent directory
   - cd ../.. - move two directories from the current directory
@@ -42,9 +44,9 @@
 - `..` - refers to parent directory
   - if you are at /home/username/directory, using ls .. will show the list of files inside /home/username
 - `.` - referes to current directory
-  - cd . will do nothing
+  - cd . will do nothing 
 
- ## Wildcards - shortcut for grouping (finding, moving, et.) files using a pattern
+ ## Wildcards - shortcut for grouping (finding, moving, etc.) files using a pattern
  - `*`
    - rm *.log will remove files that ends with .log
  - `?`
